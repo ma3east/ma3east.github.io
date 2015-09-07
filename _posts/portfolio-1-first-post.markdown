@@ -1,7 +1,7 @@
 ---
 layout: default
 img: ipad.png
-category: Portfolio
+category: Portfolios
 title: Portfolio One:<br>Blah blah
 description: |
 ---

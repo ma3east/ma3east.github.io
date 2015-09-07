@@ -1,7 +1,7 @@
 ---
 layout: default
 img: phones.png
-category: Portfolio
+category: Portfolios
 title: Portfolio Three<br>Font Awesome Icons
 description: |
 ---
