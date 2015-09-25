@@ -33,6 +33,8 @@ h6 {
     color: #f8f8f8;
     background: url(../img/morpion_IMG_1139.jpg) no-repeat center center;
     background-size: cover;
+    border: 10px solid white;
+    overflow: hidden;
 }
 
 .intro-message {
@@ -164,3 +166,12 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+/*my css*/
+
+.highlight {
+    color: red;
+}
+
+
+
