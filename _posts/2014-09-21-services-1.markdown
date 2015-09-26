@@ -11,7 +11,7 @@ description: |
   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
   cillum dolore eu fugiat nulla pariatur. 
 
-[Github](https://github.com/ma3east/WDI_PROJECT2_eStub)
+[eStub Github](https://github.com/ma3east/WDI_PROJECT2_eStub)
 
 
 <!-- ---

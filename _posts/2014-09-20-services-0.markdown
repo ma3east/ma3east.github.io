@@ -2,7 +2,7 @@
 layout: default
 img: ipad.png
 category: Portfolio
-title: Hang Person | Javascript gae
+title: Hang Person | Javascript Game
 description: |
 ---
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -11,7 +11,7 @@ description: |
   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
   cillum dolore eu fugiat nulla pariatur. 
 
-[Github](https://github.com/ma3east/WDI_PROJECT1_THE_GAME)
+[Hang Person Github](https://github.com/ma3east/WDI_PROJECT1_THE_GAME)
 
 
 <!-- ---
