@@ -31,7 +31,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/morpion_IMG_1139.jpg) no-repeat center center;
+    background: url(../img/morpion.jpg) no-repeat center center;
     background-size: cover;
     border: 10px solid white;
     overflow: hidden;
@@ -114,8 +114,10 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../img/harbour2_cropped.jpg); /*no-repeat center center;*/
     background-size: cover;
+    background-position: 0 70%;
+    border: 10px solid white;
 }
 
 .banner h2 {

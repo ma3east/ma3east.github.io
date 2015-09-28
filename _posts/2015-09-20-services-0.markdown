@@ -2,7 +2,7 @@
 layout: default
 img: ipad.png
 category: Portfolio
-title: eStub | Rails Project
+title: Hang Person | JavaScript Game
 description: |
 ---
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -11,8 +11,9 @@ description: |
   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
   cillum dolore eu fugiat nulla pariatur. 
 
-[eStub Github](https://github.com/ma3east/WDI_PROJECT2_eStub)
+[Hang Person Github](https://github.com/ma3east/WDI_PROJECT1_THE_GAME)
 
+<!-- This template features the 'Lato' font, part of the [Google Web Font library](http://www.google.com/fonts), as well as [icons from Font Awesome](http://fontawesome.io). -->
 
 <!-- ---
 layout: default

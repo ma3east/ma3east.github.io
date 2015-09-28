@@ -1,13 +1,12 @@
 # ----------------------- #
 #      Main Configs       #
 # ----------------------- #
-
+name: ma3east.com
 url: http://ma3east.github.io/
-title: The Personal Website for Andrea Mckenzie
+title: Andrea Mckenzie #The Personal Website for Andrea Mckenzie
 author: 
   name: Andrea Mckenzie
   email: myemail@gmail.com
-  github: ma3east
   twitter: ma3east
 description: > # "Write an awesome description for your new site here. 
   You can edit this line in _config.yml. It will appear in your document 
