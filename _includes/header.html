@@ -33,7 +33,7 @@
 
 <section id="home">
     <!-- Header -->
-    <div class="intro-header">
+    <div class="intro-header img-responsive">
 
       <div class="container">
 
@@ -43,12 +43,7 @@
           <h1>{{ page.title }}</h1>
           <h2>{{ page.subTitle }}</h2>
           
-          <a href="#about" class="btn btn-circle page-scroll">
-              <i class="fa fa-angle-double-down animated"></i>
-          </a>
-          <br>
-          <br>
-          <br>
+          
           <ul class="list-inline intro-social-buttons">
            {% for social in site.social %}
            <li>
@@ -56,6 +51,11 @@
         </li>
         {% endfor %}
     </ul>
+    <div class="break">
+    <a href="#about" class="btn btn-circle page-scroll">
+        <i class="fa fa-angle-double-down animated"></i>
+    </a>
+    </div>
 </div>
 </div>
 </div>
