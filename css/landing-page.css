@@ -31,7 +31,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/morpion.jpg) no-repeat center center;
+    background: url(../img/morpion2.jpg) no-repeat center center;
     background-size: cover;
     border: solid white;
     border-left-width: 50px;
@@ -42,7 +42,7 @@ h6 {
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
+    padding-top: 10%; /* was 20% */
     padding-bottom: 20%;
 }
 
