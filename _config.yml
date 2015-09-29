@@ -1,17 +1,15 @@
 # ----------------------- #
 #      Main Configs       #
 # ----------------------- #
-name: ma3east.com
+
+name: Andrea Mckenzie
 url: http://ma3east.github.io/
-title: Andrea Mckenzie #The Personal Website for Andrea Mckenzie
+title: ma3east | The Personal Website for Andrea Mckenzie
 author: 
   name: Andrea Mckenzie
-  email: myemail@gmail.com
+  email: 
   twitter: ma3east
-description: > # "Write an awesome description for your new site here. 
-  You can edit this line in _config.yml. It will appear in your document 
-  head meta (for Google search results) and in your feed.xml site 
-  description."
+description: "This is the personal website for Andrea Mckenzie, a Full Stack Developer based in East London, UK."
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -20,8 +18,6 @@ description: > # "Write an awesome description for your new site here.
 # Build settings
 markdown: kramdown
 permalink: /:title.html
-
-# permalink: pretty
 
 # ----------------------- #
 #   3rd Party Settings    #

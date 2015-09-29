@@ -1,16 +1,15 @@
 ---
 layout: default
-img: Dindins.jpg
-category: Services
+img: Dindins_map.jpg
+category: Portfolio
 title: DinDins | Group Project
 description: |
 ---
-  A group project built by the SuperAwesome Team, with the aim of tackling food wastage by creating a food exchange web app.
+  Built using NodeJs, Express, JavaScript, MongoDB, BCrypt, JSON Web Tokens, Ajax
 
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur.
+  A group project built by the SuperAwesome Team, with the aim of tackling food wastage by creating a social food sharing app, where people can search for products then set up times with other users to exchange.
+
+  My roles included setting up the back end RESTful API, implementing the use of the
+  Tesco API for product searches and helping with the styling using CSS and the Foundations framework.
   
 [DinDins Github](https://github.com/ma3east/DINDINS-backend)

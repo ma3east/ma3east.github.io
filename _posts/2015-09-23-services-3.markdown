@@ -1,16 +1,12 @@
 ---
 layout: default
-img: Dindins.jpg
-category: Services
+img: EventMatch.png
+category: Portfolio
 title: EventMatch | Group Project
 description: |
 ---
-  A 3 team group project built for a 24 hour hackathon.
+  Built using NodeJs, AngularJS, Mongoose, MongoDB, Passport, Bootstrap
 
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur.
-  
+  A 3 team group project built for a 24 hour hackathon we came up with the idea of an app to allow people to pair up to attend events which pulled data from the Eventbrite API. My role on the team was to set-up the front end application using Node and Angular as the framework, I also assisted with the styling.
+
 [EventMatch Github](https://github.com/evanjmg/GA-Hackathon)

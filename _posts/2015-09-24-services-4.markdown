@@ -1,15 +1,12 @@
 ---
 layout: default
-img: phones.png
-category: Services
+img: We_Love_Trailers.jpg
+category: Portfolio
 title: We Love Trailers | Final Project
 description: |
 ---
+Built using NodeJs, AngularJs, APIs, Bootstrap, Passport , Bower, MongoDB
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. 
+Was my final project, where I had full autonomy to choose whatever technologies I wished. I chose to use Node because I like the set-up of the servers and using packages, and I wanted more practise using APIs. The web app is for people who love watching movies trailers as much as the films themselves, the app allows searching of movie titles using themoviedb.org API data, and then trailers are found via the YouTube API.
 
 [We Love Trailers Github](https://github.com/ma3east/weLoveTrailers)

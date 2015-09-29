@@ -1,15 +1,13 @@
 ---
 layout: default
-img: ipad.png
+img: Hang_Person_home_page.jpg
 category: Portfolio
 title: Hang Person | JavaScript Game
 description: |
 ---
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. 
+  Built using JavaScript, HTML, CSS
+  
+  This was my first project, built after being on the course for 2 weeks.  It is a simple word guessing game that can be played with friends.
 
 [Hang Person Github](https://github.com/ma3east/WDI_PROJECT1_THE_GAME)
 

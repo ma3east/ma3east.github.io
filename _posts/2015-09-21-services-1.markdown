@@ -1,14 +1,13 @@
 ---
 layout: default
-img: ipad.png
+img: eStub_HomePage.jpg
 category: Portfolio
 title: eStub | Rails Project
 description: |
 ---
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. 
+  Built using Ruby, Ruby on Rails, CarrierWave, PostgreSQL, HTML, CSS
+  
+  Was one of my earlier projects, and is a web app, for people to easily record events they have attended, so they can look back and reminisce.
+
 
 [eStub Github](https://github.com/ma3east/WDI_PROJECT2_eStub)
