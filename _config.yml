@@ -40,3 +40,9 @@ analytics :
       google : 
           tracking_id : 'UA-68265403-1'
 
+# Exclude these files from your production site
+exclude:
+  - LICENSE.md
+  - README.md
+  - CNAME
+
