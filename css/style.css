@@ -85,3 +85,9 @@
     transform: scale(1);
   }
 }
+
+@media(max-width: 768px) {
+  .break {
+    height: 150px;
+  }
+}
