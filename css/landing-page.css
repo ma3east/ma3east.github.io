@@ -33,10 +33,6 @@ h6 {
     color: #f8f8f8;
     background: url(../img/morpion2.jpg) no-repeat center center;
     background-size: cover;
-    /*border: solid white;
-    border-left-width: 50px;
-    border-right-width: 50px;
-    border-top-width: 50px;*/
     overflow: hidden;
 }
 
@@ -120,9 +116,6 @@ h6 {
     background: url(../img/harbour2_cropped.jpg); /*no-repeat center center;*/
     background-size: cover;
     background-position: 0 70%;
-    /*border: solid white;  /* was 10px */
-    /*border-left-width: 50px;
-    border-right-width: 50px;*/
 }
 
 .banner h2 {
