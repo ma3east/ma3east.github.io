@@ -15,10 +15,11 @@ I look forward to continue to learn how to be a better developer and being expos
 Feel free to contact me to discuss any opportunities.
 
 <hr>
-This site is built using Jekyll. 
+This site is built using Jekyll.
 
-Jekyll theme based on [Landing-Page Bootstrap theme ](http://startbootstrap.com/templates/landing-page/)
+Jekyll theme based on [Landing-Page Bootstrap theme](http://startbootstrap.com/templates/landing-page/) 
 
+Credits: Landing Page is a free to use, open source Bootstrap theme created by [startbootstrap.com](http://startbootstrap.com/)
 
 ### License
 The contents of the Jekyll them repository are licensed under the [Apache
