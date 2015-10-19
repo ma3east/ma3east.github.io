@@ -15,6 +15,22 @@
             }
           });
   });
+  // transition name change for home page link
+  var originalText = $('#name').text();
+
+  $('#name').mouseenter(function() {
+    $(this).animate(
+      {'opacity': 0}, 500, function () {
+        $(this).text('Home');
+      }).animate({'opacity': 1}, 500);
+  });
+
+  $('#name').mouseleave(function() {
+    $(this).animate(
+      {'opacity': 0}, 500, function () {
+        $(this).text(originalText);
+      }).animate({'opacity': 1}, 500);
+  });
 
 });
 }(jQuery));
