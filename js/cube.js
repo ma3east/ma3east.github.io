@@ -56,12 +56,13 @@ function init() {
   // Add light
   addLights();
 
-  var cubeContainer = document.getElementsByTagName('canvas')[0];
+  var cubeContainer = document.getElementById('canvas');
+  
+  // document.body.appendChild(cubeContainer);
   console.log(cubeContainer);
-  document.body.appendChild(cubeContainer);
   // document.body.appendChild(renderer.domElement);
 
-  renderer.setSize(400, 400);
+  renderer.setSize(cubeContainer.offsetWidth, cubeContainer.offsetHeight);
 
   cubeContainer.appendChild(renderer.domElement);
 

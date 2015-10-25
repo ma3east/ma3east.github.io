@@ -12,10 +12,11 @@
   height: 50px;
 }
 
-canvas {
+#canvas {
   position: fixed;
   top: 0;
   left: 0;
+  border: 2px solid red;
 }
 
 /*landing page circle/arrow*/
