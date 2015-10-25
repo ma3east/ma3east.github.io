@@ -53,7 +53,7 @@ function init() {
   renderer.setSize(width, height);
 
   // sets canvas color
-  renderer.setClearColor(0xffffff, 1);
+  renderer.setClearColor(0xffffff, 0);
   
   cubeContainer.appendChild(renderer.domElement);
 
