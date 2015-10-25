@@ -6,11 +6,13 @@ renderer,
 geometry, 
 cube, 
 material, 
-cubeImage, 
+cubeImage,
 hemiLight;
 
-var width = window.innerWidth;
-var height = window.innerHeight;
+var cubeContainer = document.getElementById('myCanvas');
+var width = cubeContainer.offsetWidth;
+var height = cubeContainer.offsetHeight;
+
 var materials = [];
 
 function init() {
@@ -18,8 +20,8 @@ function init() {
   
   // camera
   camera = new THREE.PerspectiveCamera(45, width / height, 1, 10000);
-  camera.position.z = 2000;
-  
+  camera.position.z = 1200;
+
   // use images for the cube materials
   cubeImage1 = THREE.ImageUtils.loadTexture('../img/cube/GA.png');
   cubeImage2 = THREE.ImageUtils.loadTexture('../img/cube/js.png');
@@ -37,35 +39,28 @@ function init() {
 
   material = new THREE.MeshFaceMaterial(materials);
 
-  //cube geometry
+  // cube geometry
   geometry = new THREE.BoxGeometry(300, 300, 300);
 
   cube = new THREE.Mesh(geometry, material);
   scene.add(cube);
-
+  
   // renderer
   renderer = new THREE.WebGLRenderer({
     antialias: true,
     alpha: true 
   });
-  // renderer.setSize(width, height);
+  renderer.setSize(width, height);
 
   // sets canvas color
-  renderer.setClearColor(0x000000, 0.4);
+  renderer.setClearColor(0xffffff, 1);
+  
+  cubeContainer.appendChild(renderer.domElement);
 
   // Add light
   addLights();
 
-  var cubeContainer = document.getElementById('canvas');
-  
-  // document.body.appendChild(cubeContainer);
-  console.log(cubeContainer);
-  // document.body.appendChild(renderer.domElement);
-
-  renderer.setSize(cubeContainer.offsetWidth, cubeContainer.offsetHeight);
-
-  cubeContainer.appendChild(renderer.domElement);
-
+  // code to resize animation 
   THREEx.WindowResize(renderer, camera);
   animate();
 }

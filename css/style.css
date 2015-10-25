@@ -4,19 +4,16 @@
   color: #428bca;
 }
 
-.ga {
-  margin: auto;
-}
-
 .break {
   height: 50px;
 }
 
-#canvas {
-  position: fixed;
-  top: 0;
-  left: 0;
-  border: 2px solid red;
+#myCanvas {
+  position: static;
+  width: 480px;
+  height: 480px;
+  padding: 0;
+  margin: auto;
 }
 
 /*landing page circle/arrow*/

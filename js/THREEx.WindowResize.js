@@ -21,6 +21,11 @@
 /** @namespace */
 var THREEx  = THREEx    || {};
 
+//adding below to attach to div and width/height is equal to canvas not window
+var cubeContainer = document.getElementById('myCanvas');
+var width = cubeContainer.offsetWidth;
+var height = cubeContainer.offsetHeight;
+
 /**
  * Update renderer and camera when the window is resized
  * 
@@ -30,9 +35,9 @@ var THREEx  = THREEx    || {};
 THREEx.WindowResize = function(renderer, camera){
   var callback  = function(){
     // notify the renderer of the size change
-    renderer.setSize( window.innerWidth, window.innerHeight );
+    renderer.setSize( width, height );
     // update the camera
-    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.aspect = width / height;
     camera.updateProjectionMatrix();
   }
   // bind the resize event
