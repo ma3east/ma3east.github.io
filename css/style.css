@@ -11,6 +11,13 @@
 .break {
   height: 50px;
 }
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 /*landing page circle/arrow*/
 .btn-circle {
   width: 70px;
