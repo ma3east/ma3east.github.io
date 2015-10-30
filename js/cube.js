@@ -17,7 +17,7 @@ var materials = [];
 
 function init() {
 
-  if ( !webglAvailable ) {
+  if ( webglAvailable === false ) {
     noWebGl();
   } else {
    console.log('webGL available in this browser');
