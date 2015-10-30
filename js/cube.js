@@ -16,6 +16,13 @@ var height = cubeContainer.offsetHeight;
 var materials = [];
 
 function init() {
+
+  if ( !webglAvailable ) {
+    noWebGl();
+  } else {
+   console.log('webGL available in this browser');
+  }
+
   scene = new THREE.Scene();
   
   // camera
@@ -64,6 +71,25 @@ function init() {
   THREEx.WindowResize(renderer, camera);
   animate();
 }
+function webglAvailable() {
+  try {
+    var canvas = cubeContainer;
+    return !!
+    window.WebGLRenderingContext && 
+    (canvas.getContext("webgl") || 
+      canvas.getContext("experimental-webgl"));
+  } catch(e) { 
+    return false;
+  } 
+}
+
+function noWebGl (){
+  var elem = document.createElement('img');
+  elem.setAttribute('src', '../img/public/ga.png');
+
+  // webglAvailable() === false ? cubeContainer.appendChild(elem) : init();
+  cubeContainer.appendChild(elem);
+}
 
 function addLights() {
   hemiLight = new THREE.HemisphereLight( 0xffffff, 0xffffff, 1 );
@@ -82,4 +108,4 @@ function animate() {
   requestAnimationFrame(animate);
 }
 
-window.onload = init;
+window.onload = init();
