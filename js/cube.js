@@ -17,14 +17,18 @@ var materials = [];
 
 function init() {
 
-  if ( webglAvailable === false ) {
-    noWebGl();
-  } else {
-   console.log('webGL available in this browser');
-  }
+  if ( webglAvailable() === true ) {
 
-  scene = new THREE.Scene();
-  
+    console.log('webGL is available in this browser');
+    
+  } else {
+   console.log('webGL is not available');
+   
+   noWebGl();
+ }
+
+ scene = new THREE.Scene();
+
   // camera
   camera = new THREE.PerspectiveCamera(45, width / height, 1, 10000);
   camera.position.z = 1200;
@@ -73,22 +77,26 @@ function init() {
 }
 function webglAvailable() {
   try {
-    var canvas = cubeContainer;
+    // var canvas = cubeContainer;
+    var canvas = document.getElementById('myCanvas');;
+    
     return !!
     window.WebGLRenderingContext && 
     (canvas.getContext("webgl") || 
       canvas.getContext("experimental-webgl"));
   } catch(e) { 
+    console.log(e); 
     return false;
   } 
 }
 
 function noWebGl (){
   var elem = document.createElement('img');
+  var noCanvas = document.getElementById('myCanvas');
+
   elem.setAttribute('src', '../img/public/ga.png');
 
-  // webglAvailable() === false ? cubeContainer.appendChild(elem) : init();
-  cubeContainer.appendChild(elem);
+  noCanvas.appendChild(elem);
 }
 
 function addLights() {
@@ -109,3 +117,16 @@ function animate() {
 }
 
 window.onload = init();
+
+// the below works in the init function for non canvas ie ga logo displlayhed, but when canvase get both!
+
+ if ( webglAvailable() === true ) {
+
+   console.log('webGL is available in this browser');
+   
+ } else {
+  console.log('webGL is not available');
+  
+  noWebGl();
+}
+
