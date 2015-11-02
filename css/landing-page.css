@@ -31,7 +31,9 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/morpion2.jpg) no-repeat center center;
+    /*background: url(../img/morpion2.jpg) no-repeat center center;
+    background: url(../img/hand_of_banana.jpg) no-repeat center center;
+    background: url(../img/turtle_IMG.jpg) no-repeat center center;*/
     background-size: cover;
     overflow: hidden;
 }
