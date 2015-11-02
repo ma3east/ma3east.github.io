@@ -32,5 +32,14 @@
       }).animate({'opacity': 1}, 500);
   });
 
+  //enabling vegas slider
+  $(".intro-header").vegas({
+    slides: [
+    { src: "../img/turtle_IMG.jpg" },
+    { src: "../img/hand_of_banana.jpg" },
+    { src: "../img/morpion2.jpg" }
+    ]
+  });
+
 });
 }(jQuery));
