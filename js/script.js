@@ -34,6 +34,7 @@
 
   //enabling vegas slider
   $(".intro-header").vegas({
+<<<<<<< HEAD
       slides: [
           { src: "../img/turtle_IMG.jpg" },
           { src: "../img/hand_of_banana.jpg" },
@@ -42,5 +43,14 @@
   });
 
   
+=======
+    slides: [
+    { src: "../img/turtle_IMG.jpg" },
+    { src: "../img/hand_of_banana.jpg" },
+    { src: "../img/morpion2.jpg" }
+    ]
+  });
+
+>>>>>>> 06b850221477ea649b2218a0a0aa89c6579bf98f
 });
 }(jQuery));

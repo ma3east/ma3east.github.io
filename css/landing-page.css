@@ -4,8 +4,8 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body,
-html {
+ body,
+ html {
     width: 100%;
     height: 100%;
 }
@@ -31,9 +31,19 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
+<<<<<<< HEAD
     /*background: url(../img/morpion2.jpg) no-repeat center center;
     background: url(../img/hand_of_banana.jpg) no-repeat center center;
     background: url(../img/turtle_IMG.jpg) no-repeat center center;*/
+=======
+    /*background: url(../img/morpion2.jpg) no-repeat center center;*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+>>>>>>> 06b850221477ea649b2218a0a0aa89c6579bf98f
     background-size: cover;
     overflow: hidden;
 }
