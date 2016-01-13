@@ -7,6 +7,6 @@ description: |
 ---
 Built using NodeJs, AngularJs, APIs, Bootstrap, Passport , Bower, MongoDB
 
-Was my final project, where I had full autonomy to choose whatever technologies I wished. I chose to use Node because I like the set-up of the servers and using packages, and I wanted more practise using APIs. The web app is for people who love watching movies trailers as much as the films themselves, the app allows searching of movie titles using themoviedb.org API data, and then trailers are found via the YouTube API.
+Was my final GA project, where I had full autonomy to choose whatever technologies I wished. I chose to use Node because I like the set-up of the servers and using packages, and I wanted more practise using APIs. The web app is for people who love watching movies trailers as much as the films themselves, the app allows searching of movie titles using themoviedb.org API data, and then trailers are found via the YouTube API.
 
 [We Love Trailers Github](https://github.com/ma3east/weLoveTrailers)

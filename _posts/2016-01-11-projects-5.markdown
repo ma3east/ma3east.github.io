@@ -1,0 +1,14 @@
+---
+layout: default
+img: JerkMaican1.jpg
+category: Portfolio
+title: jerkMaican1 | Modify Site
+description: |
+---
+The owner of jerkMaican1 contacted me as he had got a company to put together a website for him, but was not totally happy with the results.  I had a look and there were a number of issues, Google Maps was not showing correctly on the page, there were spelling mistakes, the links to social media didn't work, content was on the site that was not applicable, and I felt better images could be used in places.  Therefore working within the constraints of the tool used to create the site I updated it for the owner.
+
+[jerkMaican1 Website](http://www.jerkmaican1.co.uk/)
+
+[jerkMaican1 Github](https://github.com/ma3east/jerkmaican1)
+
+
