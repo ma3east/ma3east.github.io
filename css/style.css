@@ -3,15 +3,16 @@
 .highlight {
   color: #428bca;
 }
-
+.about-line {
+  float: none;
+}
 .break {
   height: 50px;
 }
-
 #myCanvas {
   position: static;
-  width: 480px;
-  height: 480px;
+  width: 240px;
+  height: 240px; /*480px;*/
   padding: 0;
   margin: auto;
   overflow: hidden;
@@ -91,9 +92,18 @@
     transform: scale(1);
   }
 }
-
-@media(max-width: 768px) {
+/* --------- my Media Queries -----------------*/
+@media screen and (max-width: 768px) {
   .break {
     height: 125px;
+  }
+  .hello-text {
+    font-size: 18px;
+  }
+  .about-text {
+    margin: 0 10px;
+  }
+  .lead {
+    font-size: 16px;
   }
 }

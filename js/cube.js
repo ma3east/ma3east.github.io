@@ -47,7 +47,7 @@ function init() {
   material = new THREE.MeshFaceMaterial(materials);
 
   // cube geometry
-  geometry = new THREE.BoxGeometry(300, 300, 300);
+  geometry = new THREE.BoxGeometry(400, 400, 400); // was 300
 
   cube = new THREE.Mesh(geometry, material);
   scene.add(cube);
