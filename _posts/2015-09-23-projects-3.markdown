@@ -9,4 +9,6 @@ description: |
 
   A 3 team group project built for a 24 hour hackathon we came up with the idea of an app to allow people to pair up to attend events which pulled data from the Eventbrite API. My role on the team was to set-up the front end application using Node and Angular as the framework, I also assisted with the styling.
 
+[EventMatch Website](http://eventmatch.herokuapp.com/)
+
 [EventMatch Github](https://github.com/evanjmg/GA-Hackathon)
