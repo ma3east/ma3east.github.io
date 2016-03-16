@@ -1,0 +1,16 @@
+---
+layout: default
+img: dres_homepage.jpg
+category: Portfolio
+title: Dre's Coffee | Create Site
+description: |
+---
+The client contacted me as he was in the process of setting up a coffee shop in London and wanted another presence on the web to go along with the Twitter and Instagram accounts he already had.
+
+As he was in the early stages of the business set-up and funds were limited, he wanted a simple solution to enable him to have a website.  I stepped in to help create a website for him using Weebly.  The reason for this was it allowed the client to have a simple and cost effective web solution whilst other aspects of the business were still being finalised.  Also if needs be, the client will be able to amend content fairly easily by themselves, if they so wish.
+
+[Dre's Coffee Website](http://drescoffee.weebly.com/)
+
+[Dre's Coffee Github](https://github.com/ma3east/drescoffee)
+
+
